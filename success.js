@@ -6,7 +6,6 @@ let isIncrementing = true;
 const incrementCounter = () => {
   if (isIncrementing) {
     counter += 3.5;
-    console.log(counter);
     video.height = counter;
 
     if (counter >= 700) {
@@ -14,7 +13,6 @@ const incrementCounter = () => {
     }
   } else {
     counter -= 3.5;
-    console.log(counter);
     video.height = counter;
 
     if (counter <= 0) {
