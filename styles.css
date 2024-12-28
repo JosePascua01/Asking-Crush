@@ -92,6 +92,7 @@ footer {
 #Celebrate {
     position: absolute;
     top: 25vh;
+    z-index: 1;
 }
 
 video {
