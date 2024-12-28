@@ -84,6 +84,7 @@ footer {
     width: auto;
     height: auto;
     font-size: 12rem;
+text-align: center;
     display: block;
     position: absolute;
     bottom: 10px;
