@@ -3,7 +3,7 @@ const staticYesButton = document.getElementById('Yes');
 const movingNoButton = document.getElementById('No');
 const yesButtonDimensions = staticYesButton.getBoundingClientRect();
 const choiceBoxDimensions = choiceBox.getBoundingClientRect();
-let audio = new Audio("assets/audio/meow.mp3");
+let audio = new Audio("assets/audio/Celebrate.mp3");
 
 movingNoButton.style.top = `${yesButtonDimensions.top}px`;
 movingNoButton.style.left = `${choiceBoxDimensions.left + choiceBoxDimensions.width / 2 + (yesButtonDimensions.left - choiceBoxDimensions.left)}px`;
